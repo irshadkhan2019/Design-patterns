@@ -6,5 +6,8 @@ public class Main {
       ds.addObserver(new ChartObserver());
       ds.addObserver(new SpreadSheetObserver());
       ds.setValue(12);
+      System.out.println("------------ \n");
+
+      ds.setValue(20);
     }
 }
