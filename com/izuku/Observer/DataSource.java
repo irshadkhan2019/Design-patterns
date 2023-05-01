@@ -10,7 +10,7 @@ public class DataSource extends Subject {
     public void setValue(int value) {
       this.value = value;
       //pass values to observers push method
-      notifyObservers(value);
+      notifyObservers();
     }
 
 
