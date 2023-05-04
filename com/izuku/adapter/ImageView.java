@@ -1,7 +1,5 @@
 package com.izuku.adapter;
 
-import java.io.Console;
-
 public class ImageView {
   private Image image;
 
