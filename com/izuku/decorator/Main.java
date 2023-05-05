@@ -18,7 +18,6 @@ public class Main {
     storeCreditCard(new EncryptedCloudStream(new CompressedCloudStream(new CloudStream())));
     System.out.println("with decor Compress and encrypt \n");
 
-
   }
   public static void storeCreditCard(Stream stream) {
     stream.write("1234-1234-1234-1234");
